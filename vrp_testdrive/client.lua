@@ -778,7 +778,7 @@ end)
 RegisterNetEvent('TD:currentlytesting')
 AddEventHandler('TD:currentlytesting', function(test)
 	testing = true
-	vRP.notify({"~r~TestDrive inceput! Ai la dispozitie 2 minute pentru a incerca masina!"})
+	vRP.notify({"~r~TestDrive started! You have 2 minutes to test the car.!"})
 	secondsRemaining = 120
 end)
 
