@@ -496,7 +496,7 @@ function vehSR_OpenCreator()
 	local g = Citizen.InvokeNative(0xC906A7DAB05C8D2B,pos[1],pos[2],pos[3],Citizen.PointerValueFloat(),0)
 	SetEntityCoords(ped,pos[1],pos[2],g)
 	SetEntityHeading(ped,pos[4])
-	vehshop.currentmenu = "main"
+	vehshop.currentmenu = "Main"
 	vehshop.opened = true
 	vehshop.selectedbutton = 0
 end
