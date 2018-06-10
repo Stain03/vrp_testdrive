@@ -831,9 +831,9 @@ function vehSR_ButtonSelected(button)
 			vehSR_OpenMenu('Vans')
 		end
 	elseif this == "Compacts" or this == "Exclusive" or this == "Coupes" or this == "Sedans" or this == "Sports" or this == "Sportsclassics" or this == "Supers" or this == "Muscle" or this == "Offroad" or this == "Suvs" or this == "Vans" or this == "industrial" then
-		TriggerServerEvent('veh_SR:CheckMoneyForVeh',button.model,button.costs, "car")
+		TriggerServerEvent('veh_TD:CheckMoneyForVeh',button.model,button.costs, "car")
     elseif this == "cycles" or this == "Motorcycles" then
-		TriggerServerEvent('veh_SR:CheckMoneyForVeh',button.model,button.costs, "bike")
+		TriggerServerEvent('veh_TD:CheckMoneyForVeh',button.model,button.costs, "bike")
 	end
 end
 
